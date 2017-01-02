@@ -8,6 +8,7 @@
 # Rolla, MO 65409-0050
 # Email: stutts@mst.edu
 # Original release: 9-5-2016
+# Language: Python 3.5.2
 ####################--
 
 """
@@ -107,26 +108,11 @@ yy = array(y)
 
 print ("Number of lines = ",linecount)
 # Locate Ymax, xmax, Ymin, and xmin:
-f = 0
-Ymax = 0
+Ymax = max(y)
+xmax = y.index(Ymax)
+Ymin = min(y)
+xmin = y.index(Ymin)
 imax = len(x)
-print ("imax = ",imax)
-kmax = 0
-for k in range(imax):
-    if yy[k] > yy[kmax]:
-        kmax = k
-
-Ymax = yy[kmax]
-xmax = x[kmax]
-
-kmin = kmax
-
-for k in range(kmin, imax):
-    if yy[k] < yy[kmin]:
-        kmin = k
-
-Ymin = yy[kmin]
-xmin = x[kmin]
 print ("Maximum y = ",Ymax," Located at x = ",xmax)
 print ("Minimum y = ",Ymin," Located at x = ",xmin)
 delx = (x[imax-1]-x[0])/10.0

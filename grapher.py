@@ -8,7 +8,6 @@
 # Rolla, MO 65409-0050
 # Email: stutts@mst.edu
 # Original release: 9-5-2016
-
 ####################--
 
 """
@@ -22,7 +21,7 @@ python grapher.py inputdatafile.txt > outdata.txt
  # This code is copyrighted by the author, but released under the MIT
  # license:
 
-Copyright (c) 2016 grapher.py
+Copyright (c) 2016 -- grapher.py
 
 S&T and the University of Missouri Board of Curators 
 license to you the right to use, modify, copy, and distribute this 
@@ -53,7 +52,7 @@ of this software include the following citation:
 author =   {Stutts, D. S.},
 title = {{grapher.py}: {Python data plotting script.}},
 howpublished = {\\url{https://github.com/dsstutts/GRAPHER.git}},
-year = {2015}}
+year = {2016}}
 
 """
 

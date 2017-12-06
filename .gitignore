@@ -3,3 +3,5 @@
 *.eps
 .idea
 .ipynb_checkpoints
+*.txt
+sample-data.csv

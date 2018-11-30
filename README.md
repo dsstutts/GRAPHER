@@ -1,5 +1,5 @@
 # GRAPHER
-Simple python script to plot tab-delimited x,y data.
+Simple python script to plot comma and tab-delimited x,y data.
 
 Example call: python grapher.py inputdatafile.txt
 

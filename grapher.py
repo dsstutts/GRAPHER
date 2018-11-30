@@ -1,6 +1,6 @@
 ####################--
 # File: grapher.py
-# Plots x,y tab-delimited data
+# Plots x,y comma or tab-delimited data
 # Author: D. S. Stutts
 # Associate Professor of Mechanical Engineering
 # 282 Toomey Hall
